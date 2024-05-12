@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "dev": "Bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@bit-js/bun-utils": "^1.0.2",
+    "@hono/sentry": "^1.1.0",
+    "@hono/zod-validator": "^0.2.1",
+    "@prisma/client": "5.13.0",
+    "@types/nodemailer": "^6.4.15",
+    "drizzle-orm": "^0.30.10",
+    "hono": "^4.3.4",
+    "hono-rate-limiter": "^0.3.0",
+    "mailslurp": "^0.0.1-security",
+    "mailslurp-client": "^15.20.2",
+    "nodemailer": "^6.9.13",
+    "postgres": "^3.4.4",
+    "prisma": "^5.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.8",
+    "drizzle-kit": "^0.21.1"
+  }
+}
